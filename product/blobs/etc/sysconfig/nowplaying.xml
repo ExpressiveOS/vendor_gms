@@ -16,7 +16,10 @@
 
 <config>
     <!-- The Now Playing package can bind to the open-source PCS component. -->
-    <allow-association target="com.google.android.as.oss" allowed="com.google.android.apps.pixel.nowplaying" />
+    <!-- ExpressiveOS: no allow-association with target="com.google.android.as.oss" here.
+         A target entry makes PCS association-restricted, and only Now Playing was listed,
+         so AICore, Gboard and Android System Intelligence could not bind to PCS
+         ("association not allowed") and AICore model downloads failed. -->
     <allow-association target="com.google.android.apps.pixel.nowplaying" allowed="com.google.android.as.oss" />
 
     <!-- The Now Playing package can bind to Android System Intelligence (Private Core Compute). -->
