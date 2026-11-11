@@ -20,5 +20,14 @@
     <exception package="com.google.android.crossdeviceaccessservice">
         <permission name="android.permission.BLUETOOTH_CONNECT" fixed="false"/>
         <permission name="android.permission.UWB_RANGING" fixed="false"/>
+        <permission
+            name="android.permission.ACCESS_BACKGROUND_LOCATION" fixed="false"
+            featureFlag="com.google.android.crossdeviceaccessservice.common.flags.enable_primary_departure_detection"/>
+        <permission
+            name="android.permission.ACCESS_FINE_LOCATION" fixed="false"
+            featureFlag="com.google.android.crossdeviceaccessservice.common.flags.enable_primary_departure_detection"/>
+        <permission
+            name="android.permission.NEARBY_WIFI_DEVICES" fixed="false"
+            featureFlag="com.google.android.crossdeviceaccessservice.common.flags.enable_primary_departure_detection"/>
     </exception>
 </exceptions>
