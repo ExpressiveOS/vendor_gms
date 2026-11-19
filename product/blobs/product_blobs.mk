@@ -108,7 +108,7 @@ PRODUCT_PACKAGES += \
     satellite_sos \
     spoon
 
-ifneq ($(filter oriole raven panther cheetah lynx tangorpro felix shiba husky akita tokay caiman komodo comet tegu frankel blazer mustang rango stallion cubs grizzly kodiak yogi, $(LINEAGE_BUILD)),)
+ifneq ($(filter oriole raven panther cheetah lynx tangorpro felix shiba husky akita tokay caiman komodo comet tegu frankel blazer mustang rango stallion cubs grizzly kodiak yogi, $(EOS_BUILD)),)
 PRODUCT_PACKAGES += \
     pixel_experience_2021
 endif
@@ -118,57 +118,57 @@ PRODUCT_PACKAGES += \
     pixel_experience_2021
 endif
 
-ifneq ($(filter bluejay panther cheetah lynx tangorpro felix shiba husky akita tokay caiman komodo comet tegu frankel blazer mustang rango stallion cubs grizzly kodiak yogi, $(LINEAGE_BUILD)),)
+ifneq ($(filter bluejay panther cheetah lynx tangorpro felix shiba husky akita tokay caiman komodo comet tegu frankel blazer mustang rango stallion cubs grizzly kodiak yogi, $(EOS_BUILD)),)
 PRODUCT_PACKAGES += \
     pixel_experience_2022_midyear
 endif
 
-ifneq ($(filter panther cheetah lynx tangorpro felix shiba husky akita tokay caiman komodo comet tegu frankel blazer mustang rango stallion cubs grizzly kodiak yogi, $(LINEAGE_BUILD)),)
+ifneq ($(filter panther cheetah lynx tangorpro felix shiba husky akita tokay caiman komodo comet tegu frankel blazer mustang rango stallion cubs grizzly kodiak yogi, $(EOS_BUILD)),)
 PRODUCT_PACKAGES += \
     pixel_experience_2022
 endif
 
-ifneq ($(filter lynx felix shiba husky akita tokay caiman komodo comet tegu frankel blazer mustang rango stallion cubs grizzly kodiak yogi, $(LINEAGE_BUILD)),)
+ifneq ($(filter lynx felix shiba husky akita tokay caiman komodo comet tegu frankel blazer mustang rango stallion cubs grizzly kodiak yogi, $(EOS_BUILD)),)
 PRODUCT_PACKAGES += \
     pixel_experience_2023_midyear
 endif
 
-ifneq ($(filter shiba husky akita tokay caiman komodo comet tegu frankel blazer mustang rango stallion cubs grizzly kodiak yogi, $(LINEAGE_BUILD)),)
+ifneq ($(filter shiba husky akita tokay caiman komodo comet tegu frankel blazer mustang rango stallion cubs grizzly kodiak yogi, $(EOS_BUILD)),)
 PRODUCT_PACKAGES += \
     pixel_experience_2023
 endif
 
-ifneq ($(filter akita tokay caiman komodo comet tegu frankel blazer mustang rango stallion cubs grizzly kodiak yogi, $(LINEAGE_BUILD)),)
+ifneq ($(filter akita tokay caiman komodo comet tegu frankel blazer mustang rango stallion cubs grizzly kodiak yogi, $(EOS_BUILD)),)
 PRODUCT_PACKAGES += \
     pixel_experience_2024_midyear
 endif
 
-ifneq ($(filter tokay caiman komodo comet tegu frankel blazer mustang rango stallion cubs grizzly kodiak yogi, $(LINEAGE_BUILD)),)
+ifneq ($(filter tokay caiman komodo comet tegu frankel blazer mustang rango stallion cubs grizzly kodiak yogi, $(EOS_BUILD)),)
 PRODUCT_PACKAGES += \
     pixel_experience_2024
 endif
 
-ifneq ($(filter tegu frankel blazer mustang rango stallion cubs grizzly kodiak yogi, $(LINEAGE_BUILD)),)
+ifneq ($(filter tegu frankel blazer mustang rango stallion cubs grizzly kodiak yogi, $(EOS_BUILD)),)
 PRODUCT_PACKAGES += \
     pixel_experience_2025_midyear
 endif
 
-ifneq ($(filter frankel blazer mustang rango stallion cubs grizzly kodiak yogi, $(LINEAGE_BUILD)),)
+ifneq ($(filter frankel blazer mustang rango stallion cubs grizzly kodiak yogi, $(EOS_BUILD)),)
 PRODUCT_PACKAGES += \
     pixel_experience_2025
 endif
 
-ifneq ($(filter stallion cubs grizzly kodiak yogi, $(LINEAGE_BUILD)),)
+ifneq ($(filter stallion cubs grizzly kodiak yogi, $(EOS_BUILD)),)
 PRODUCT_PACKAGES += \
     pixel_experience_2026_midyear
 endif
 
-ifneq ($(filter cubs grizzly kodiak yogi, $(LINEAGE_BUILD)),)
+ifneq ($(filter cubs grizzly kodiak yogi, $(EOS_BUILD)),)
 PRODUCT_PACKAGES += \
     pixel_experience_2026
 endif
 
-ifneq ($(filter blueline crosshatch sargo bonito flame coral sunfish bramble redfin barbet oriole raven bluejay panther cheetah lynx tangorpro felix shiba husky akita tokay caiman komodo comet tegu frankel blazer mustang rango stallion cubs grizzly kodiak yogi, $(LINEAGE_BUILD)),)
+ifneq ($(filter blueline crosshatch sargo bonito flame coral sunfish bramble redfin barbet oriole raven bluejay panther cheetah lynx tangorpro felix shiba husky akita tokay caiman komodo comet tegu frankel blazer mustang rango stallion cubs grizzly kodiak yogi, $(EOS_BUILD)),)
 PRODUCT_PACKAGES += \
     dreamliner
 endif
