@@ -91,7 +91,7 @@ PRODUCT_PACKAGES += \
     MoseyApp \
     NexusLauncherRelease \
     SetupWizardPixelPrebuilt_cd1a \
-    StorageManagerGoogle \
+    StorageManager \
     WallpaperPickerGoogleRelease
 
 # PrebuiltGmsCore

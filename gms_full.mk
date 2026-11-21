@@ -169,7 +169,7 @@ PRODUCT_PACKAGES += \
     NexusLauncherRelease \
     PixelSearchPrebuilt_26.02.00 \
     SetupWizardPixelPrebuilt_cd1a \
-    StorageManagerGoogle \
+    StorageManager \
     TurboAdapter \
     WallpaperPickerGoogleRelease \
     YourWidgetsStub
