@@ -27,6 +27,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
       <permission name="android.permission.CONTROL_DISPLAY_COLOR_TRANSFORMS"/>
       <permission name="android.permission.QUERY_USERS" />
       <permission name="android.permission.READ_HOME_TIME_ZONE"/>
+      <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.android.angle">
@@ -457,6 +458,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
     </privapp-permissions>
 
     <privapp-permissions package="com.google.android.tetheringentitlement">
+        <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
         <permission name="android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS"/>
         <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
         <permission name="android.permission.TETHER_PRIVILEGED"/>

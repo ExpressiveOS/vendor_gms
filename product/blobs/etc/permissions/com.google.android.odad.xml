@@ -15,5 +15,6 @@
         <permission name="android.permission.SYSTEM_APPLICATION_OVERLAY"/>
         <permission name="android.permission.GET_BACKGROUND_INSTALLED_PACKAGES"/>
         <permission name="android.permission.DUMP"/>
+        <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
     </privapp-permissions>
 </permissions>
